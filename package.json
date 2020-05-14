@@ -1,0 +1,24 @@
+{
+  "name": "tsfjs-example",
+  "version": "0.1.0",
+  "description": "A tensorflow example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-automl": "^1.0.0",
+    "@tensorflow/tfjs-converter": "^1.7.4",
+    "@tensorflow/tfjs-core": "^1.7.4"
+  }
+}
