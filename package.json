@@ -1,13 +1,15 @@
 {
   "name": "tsfjs-example",
   "version": "0.1.0",
+  "private": true,
   "description": "A tensorflow example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open ",
+    "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Taro <esjoando555@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
